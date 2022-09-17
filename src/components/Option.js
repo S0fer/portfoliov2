@@ -7,11 +7,10 @@ export default function Option(props){
 
     return(
         <div className={name + " option"}>
-            <div className="shadow"></div>
+            <div className="icon">  
+                <img src={icon} alt="" className="option-img"></img>
+            </div>
             <div className="label">
-                <div className="icon">  
-                    <img src={icon} alt="" className="option-img"></img>
-                </div>
                 <div className="main">{name}</div>
                 <div className="sub">{description}</div>
             </div>
