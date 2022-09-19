@@ -6,8 +6,10 @@ export default function Home(){
         <div className="home">
             <div className="filter">
                 <img src={photo} alt="circular" className="circular-photo" />
-                <h1>João Alarcón</h1>
-                <p>Front End Developer</p>
+                <div>
+                    <h1>João Alarcón</h1>
+                    <p>Front End Developer</p>
+                </div>
                 <div className="floating-arrow">
                     <img src={arrow} alt="arrow" className="floating-arrow-svg" />
                 </div>
