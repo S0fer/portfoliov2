@@ -6,7 +6,7 @@ export default function Home(){
         <div className="home">
             <div className="filter">
                 <img src={photo} alt="circular" className="circular-photo" />
-                <div>
+                <div className="center-info">
                     <h1>João Alarcón</h1>
                     <p>Front End Developer</p>
                 </div>

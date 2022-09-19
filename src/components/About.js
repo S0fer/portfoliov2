@@ -11,15 +11,16 @@ export default function About(){
                     <div className="left-cv">
                         <p>Nome: João Pedro Alarcón Duarte</p>
                         <p>Telefone: (51) 994148603</p>
+                        <p>Email: joaoad1099@gmail</p>
                     </div>
                     <div className="right-cv">
                         <p>Github: <a href="https://www.github.com/S0fer/" target="_blank" rel="noopener noreferrer">github.com/S0fer</a></p>
                         <p>Linkedin: <a href="https://www.linkedin.com/in/alarcon-developer/" target="_blank" rel="noopener noreferrer">linkedin.com/in/alarcon-developer</a></p>
                     </div>
                 </div>
-                <button className="btn">
+                <a href="mailto:joaoad1099@gmail.com" className="btn">
                     Call to Action
-                </button>
+                </a>
             </div>
         </div>
 )}
