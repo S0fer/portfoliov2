@@ -6,19 +6,15 @@ export default function About(){
             <img src={photo} alt="" className="main-photo" />
             <div className="right">
                 <h1>Sobre Mim</h1>
-                <p>Meu nome é João Pedro, e atualmente trabalho como analista de testes QA, porém busco oportunidade na área de desenvolvimento Front End.</p>
+                <p>Meu nome é João Pedro, sou um desenvolvedor Front End de Porto Alegre - RS atualmente trabalhando como Analista de Testes QA. Curso Sistemas de Informação pela FADERGS e tenho experiência de estudo na área de Front End desde 2015, quando finalizei um curso profissionalizante em Web Design. Experiência e estudo são os principais motivos para minha aplicação nesta área.</p>
                 <div className="cv">
                     <div className="left-cv">
-                        <p>Nome</p>
-                        <p>Telefone</p>
-                        <p>Experiência</p>
-                        <p>Linkedin</p>
+                        <p>Nome: João Pedro Alarcón Duarte</p>
+                        <p>Telefone: (51) 994148603</p>
                     </div>
                     <div className="right-cv">
-                        <p>Nome</p>
-                        <p>Telefone</p>
-                        <p>Experiência</p>
-                        <p>Linkedin</p>
+                        <p>Github: <a href="https://www.github.com/S0fer/" target="_blank" rel="noopener noreferrer">github.com/S0fer</a></p>
+                        <p>Linkedin: <a href="https://www.linkedin.com/in/alarcon-developer/" target="_blank" rel="noopener noreferrer">linkedin.com/in/alarcon-developer</a></p>
                     </div>
                 </div>
                 <button className="btn">
